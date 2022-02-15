@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>PWA Starter</title>
 
-    <base href="/" />
+    <base href="./" />
 
     <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
     <meta
@@ -40,10 +40,10 @@
       <app-index></app-index>
     </fluent-design-system-provider>
 
-    <script type="module" src="/pwabuilder-sw.ts"></script>
+    <script type="module" src="pwabuilder-sw.ts"></script>
 
     <script>
-      navigator.serviceWorker.register("/pwabuilder-sw.js");
+      navigator.serviceWorker.register("pwabuilder-sw.js");
     </script>
   </body>
 </html>
